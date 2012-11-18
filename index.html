@@ -6,33 +6,25 @@
 
 			a{
 				position: relative;
-				display:block;
+				display:table;
+				table-layout: fixed;
 				width:200px;
 				margin:0 auto;
 				background-color:palegoldenrod;
 				outline:dotted red;
 			}
 			a span{
-				display:block;
-				height:37.5px;
+				display:table-cell;
+				height:75px;
 				text-align: center;
 				vertical-align: middle;
-				background-color:yellow;
+				background-color:white;
 			}
 			a span:first-child{
-				background-color:black;
+				background-color:green;
 			}
 			a span:last-child{
-				background-color:red;
-			}
-
-			a span:nth-child(2){
-				position: absolute;
-				left:50%;
-				top:50%;
-				width:37.5px;
-				margin:-18.75px 0 0 -18.75px;
-				border-radius:100%;
+				background-color:orange;
 			}
 
 		</style>
